@@ -1,0 +1,534 @@
+/* Reset Padrão ------------------------------- */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+html,body{
+	height: 100%;
+}
+/* Classes Padrão ----------------------------- */
+@font-face{
+	font-family: CourierNew;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/CourierNew.ttf');
+}
+
+@font-face{
+	font-family: CourierNewBold;
+	font-style: bold;
+	font-weight: normal;
+	src: url('../fonts/CourierNewBold.ttf');
+}
+
+@font-face{
+	font-family: Bahnschrift;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Bahnschrift.ttf');
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	text-align: center;
+}
+
+h1,h2{
+	font-family: "CourierNewBold";
+	font-style: bold;
+}
+
+p{
+	font-family: "Bahnschrift";
+}
+
+svg{
+	display: inline-block;
+	font-size: inherit;
+	height: 1.5em;
+	overflow: visible;
+}
+/* Home -------------------------------------- */
+section.home{
+	background-image: linear-gradient(to right, #292929, #777676, #292929);
+	color: #fff;
+	min-height: 100%;
+	padding: 2%;
+	width: 100%;
+}
+
+section.home .wraper{
+	background-color: #FFF;
+	border: 1px solid #707070;
+	border-radius: 50%;
+	display: inline-block;
+	height: 275px;
+	width: 275px;
+}
+
+section.home img{
+	max-height: 155	px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 210px;
+}
+
+section.home h1{
+	color: #fff;
+	font-style: bold;
+	font-size: 40px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	text-shadow: 0 0 .2px #707070;
+}
+
+section.home button{
+	background-color: #363636;
+	border: 1px solid #707070;
+	border-radius: 10px;
+	display: block;
+	font-family: "CourierNew";
+	font-size: 40px;
+	margin: 20px auto 0px auto;
+	height: 100px;
+	text-transform: uppercase;
+	width: 500px;
+}
+
+section.home button:hover a{
+	color: #646464;
+}
+
+section.home button a{
+	color: #fff;
+	display: block;
+	height: 100%;
+	line-height: 250%;
+	text-decoration: none;
+	text-shadow: 0 0 0.2px #707070;
+	transition: .8s;
+	width: 100%;
+}
+/* Header ------------------------------------ */
+header{
+	padding: 0 2%;
+}
+
+header img{
+	max-width: 329px;
+	max-height: 248px;
+	width: 90%;
+}
+/* Who --------------------------------------- */
+section.who{
+	background-color: #DFDFDF;
+	padding: 0 2%;
+}
+
+section.who h1{
+	color: #000;
+	font-size: 50px;
+	font-style: bold;
+	padding: 30px 0;
+	text-shadow: 0 0 0.2px #707070;
+	text-transform: uppercase;
+}
+
+section.who p{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+section.who .wraper{
+	margin-top: 100px;
+	text-align: right;
+	width: 100%;
+}
+
+section.who .wraper .img{
+	max-height: 624px;
+	max-width: 528px;
+	padding: 0 2%;
+	width: 45%;
+}
+
+section.who .wraper .img img{
+	width: 100%;
+	height: 100%;
+}
+
+section.who .wraper .img1{
+	float: left;
+}
+
+section.who .wraper .img2{
+	float: right;
+	margin-bottom: 50px;
+}
+
+section.who .wraper .img1 img{
+	-webkit-box-shadow: -20px 20px 0px -4px #B4B4B4; 
+	box-shadow: -20px 20px 0px -4px #B4B4B4;
+	float: left;
+}
+
+section.who .wraper .img2 img{
+	-webkit-box-shadow: 20px 20px 0px -4px #B4B4B4; 
+	box-shadow: 20px 20px 0px -4px #B4B4B4;
+}
+
+section.who .wraper .wraper2{
+	float: left;
+	text-align: left;
+	width: 55%;
+}
+
+section.who .wraper:nth-of-type(1) .wraper2{
+	text-align: right;
+}
+
+section.who .wraper .wraper2 h2{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+section.who .wraper .wraper2 p{
+	font-size: 30px;
+	letter-spacing: 16;
+	line-height: 40px;
+}
+/* Division ---------------------------------- */
+section.division{
+	height: 250px;
+	padding: 20px 0;
+	width: 100%;
+}
+section.division .logo-mini{
+	background-image: url('../images/logo-mini.png');
+	background-repeat: repeat-x;
+	background-position: center;
+	background-size: 350px 180px;
+	width: 100%;
+	height: 100%;
+}
+/* About ------------------------------------- */
+section.about{
+	background-color: #DFDFDF;
+	text-align: center;
+	padding: 0 2%;
+}
+
+section.about h1{
+	padding: 40px 0 80px 0;
+	color: #000;
+	font-size: 50px;
+	font-style: bold;
+	text-shadow: 0 0 0.2px #707070;
+	text-transform: uppercase;
+}
+
+section.about .wraper{
+	float: left;
+	width: 33.3%;
+	height: 300px;
+}
+
+section.about .wraper .box{
+	background-color: #FFF;
+	-webkit-box-shadow: 20px 20px 0px -4px #B4B4B4; 
+	box-shadow: 20px 20px 0px -4px #B4B4B4;
+	display: inline-block;
+	height: 140px;
+	width: 160px;
+}
+
+section.about .wraper .box p{
+	font-family: "CourierNewBold";
+	font-size: 50px;
+	line-height: 140px;
+}
+
+section.about .wraper > p{
+	color: #363636;
+	font-size: 30px;
+	padding-top: 20px;
+}
+/* Footer ------------------------------------ */
+footer{
+	background-color: #000;
+	padding: 0 2% 100px 2%;
+	text-align: center;
+}	
+
+footer h1{
+	color: #FFF;
+	font-size: 50px;
+	padding: 40px 0 80px 0;
+	text-transform: uppercase;
+}
+
+footer .wraper-btn{
+	float: left;
+	width: 60%;
+}
+
+footer button{
+	background-color: #000;
+	border: 10px solid #B4B4B4;
+	height: 120px;
+	width: 400px;
+}
+
+footer button a{
+	color: #FFF;
+	display: block;
+	font-family: "CourierNewBold";
+	font-size: 30px;
+	text-decoration: none;
+}
+
+footer .wraper{
+	float: left;
+	text-align: left;
+	width: 40%;
+}
+
+footer p{
+	color: #FFF;
+	display: inline-block;
+	font-size: 30px;
+	padding: 0 0 20px 10px;
+	padding-left: 10px;
+	-webkit-touch-callout: text;
+   -webkit-user-select: text;
+   -khtml-user-select: text;
+   -moz-user-select: text;
+   -ms-user-select: text;
+   user-select: text;
+}
+/* Responsive -------------------------------- */
+@media screen and (max-width: 1024px){
+
+	section.home button{
+		font-size: 36px;
+	}
+
+	section.who h1{
+		font-size: 40px;
+	}
+
+	section.who p{
+		margin-bottom: 50px;
+	}
+
+	section.who .wraper {
+		margin: 0;
+		padding-top: 30px;
+	}
+
+	section.who .wraper {
+		margin: 0;
+		padding-top: 30px;
+	}
+
+	section.who .wraper .img{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	section.who .wraper .wraper2{
+		width: 100%;
+		text-align: center;
+	}
+
+	section.who .wraper .img1, section.who .wraper .img2{
+		float: none;
+	}
+
+	section.who .wraper:nth-of-type(1) .wraper2{
+		text-align: center;
+	}
+
+	section.who .wraper .wraper2 h2{
+		font-size: 36px;
+		margin: 30px 0;
+	}
+
+	section.who .wraper .wraper2 p{
+		font-size: 24px;
+	}
+
+	section.division{
+		height: 170px;
+	}
+
+	section.division .logo-mini{
+		background-size: 300px 155px;
+	}
+
+	section.about h1{
+		font-size: 40px;
+	}
+
+	section.about .wraper{
+		width: 50%;
+		height: 285px;
+	}
+
+	section.about .wraper .box{
+		height: 120px;
+		width: 135px;
+	}
+
+	section.about .wraper .box p{
+		font-size: 36px;
+		line-height: 120px;
+	}
+
+	footer h1{
+		font-size: 40px;
+		padding: 40px 0;
+	}
+
+	footer p{
+		font-size: 28px;
+	}
+
+	footer .wraper-btn{
+		width: 55%;
+	}
+
+	footer .wraper{
+		width: 45%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+
+	header img{
+		width: 70%;
+	}
+
+	section.home button{
+		font-size: 32px;
+		height: 90px;
+		width: 450px;
+	}
+
+	section.division .logo-mini{
+		background-size: 250px 130px;
+	}
+
+	section.about .wraper{
+		height: 260px;
+	}
+
+	section.about .wraper .box{
+		height: 80px;
+		width: 100px;
+	}
+
+	section.about .wraper .box p{
+		line-height: 80px;
+	}
+
+	section.about .wraper > p{
+		font-size: 26px;
+	}
+
+	footer .wraper-btn, footer .wraper{
+		float: none;
+		margin: 50px auto;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 580px){
+
+	section.home h1{
+		font-size: 30px;
+	}
+
+	section.home button{
+		font-size: 30px;
+		height: 80px;
+		width: 390px;
+	}
+
+	section.who p {
+		font-size: 22px;
+	}
+
+	section.who .wraper .wraper2 h2 {
+		font-size: 30px;
+	}
+
+	section.who .wraper .wraper2 p{
+		font-size: 20px;
+	}
+
+	section.who .wraper .img1 img{
+		-webkit-box-shadow: -5px 5px 0px 0px #B4B4B4;
+		box-shadow: -5px 5px 0px 0px #B4B4B4;
+	}
+
+	section.who .wraper .img2 img{
+		-webkit-box-shadow: -5px 5px 0px 0px #B4B4B4;
+		box-shadow: -5px 5px 0px 0px #B4B4B4;
+	}
+
+	section.about h1 {
+    	font-size: 30px;
+	}
+
+	footer h1 {
+	    font-size: 30px;
+	    padding-bottom: 0;
+	}
+
+	footer button {
+	    height: 100px;
+	    width: 300px;
+	}
+
+	footer button a {
+    	font-size: 24px;
+	}
+
+	footer p{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	
+	section.home button{
+		font-size: 24px;
+		width: 330px;
+	}
+
+	section.home button a{
+		line-height: 350%;
+	}
+
+	section.about .wraper {
+	    width: 100%;
+	    height: 250px;
+	}
+}
