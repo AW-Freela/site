@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded',()=>{
    if(check_mobile()){
       if(window.location.pathname == '/AW-Freela/quemsomos' || window.location.pathname == '/AW-Freela/quemsomos.html'){
          let $link = document.querySelector('footer .container .wraper-btn a');
-         $link.setAttribute("href", "https://wa.me/qr/MY2L2U2YK5LIE1");
+         $link.setAttribute("href", "https://wa.me/message/IB2XL3E7JO66I1");
       }else if(window.location.pathname == '/AW-Freela/' || window.location.pathname == 'AW-Freela/index.html'){
          let $link = document.querySelector('section.home .container div button a');
-         $link.setAttribute("href", "https://wa.me/qr/MY2L2U2YK5LIE1");
+         $link.setAttribute("href", "https://wa.me/message/IB2XL3E7JO66I1");
       }
    }
 });
